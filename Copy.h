@@ -2,7 +2,6 @@
 #define COPYING_COPY_H
 
 #include <typeinfo>
-#include <iostream>
 
 template <typename T, size_t size>
 struct _copy {
