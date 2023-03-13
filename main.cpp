@@ -10,7 +10,7 @@ int main() {
 
     srand(time(nullptr));
     for (auto& value : my_array) {
-        value = rand() % 1000 / 1.65;
+        value = rand() % 1000;
         std::cout << value << ' ';
     }
 
