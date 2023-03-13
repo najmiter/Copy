@@ -12,7 +12,7 @@ struct _copy {
 template <typename T, size_t size>
 void copy(T* destination, T* source)
 {
-    *(_copy<T, size>*)(void*)destination = *(_copy<T, size>*)(void*)source;
+    *(_copy<T, size>*)destination = *(_copy<T, size>*)source;
 }
 
 
