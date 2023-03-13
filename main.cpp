@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <chrono>
 #include <cstring>
+#include <iostream>
 
 const size_t SIZE{200000000UL};
 
