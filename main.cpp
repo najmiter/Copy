@@ -12,7 +12,7 @@ int main() {
 
 //    srand(time(nullptr));
     for (auto i {0UL}; i < SIZE; ++i) {
-        my_array[i] = rand() % 1000;
+        my_array[i] = rand() % 1000 / 1.67;
 //        std::cout << value << ' ';
     }
 
